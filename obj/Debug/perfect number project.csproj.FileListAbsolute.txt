@@ -1,0 +1,8 @@
+D:\ConsoleApp1\perfect number project\perfect number project\bin\Debug\perfect number project.exe.config
+D:\ConsoleApp1\perfect number project\perfect number project\bin\Debug\perfect number project.exe
+D:\ConsoleApp1\perfect number project\perfect number project\bin\Debug\perfect number project.pdb
+D:\ConsoleApp1\perfect number project\perfect number project\obj\Debug\perfect number project.csproj.AssemblyReference.cache
+D:\ConsoleApp1\perfect number project\perfect number project\obj\Debug\perfect number project.csproj.SuggestedBindingRedirects.cache
+D:\ConsoleApp1\perfect number project\perfect number project\obj\Debug\perfect number project.csproj.CoreCompileInputs.cache
+D:\ConsoleApp1\perfect number project\perfect number project\obj\Debug\perfect number project.exe
+D:\ConsoleApp1\perfect number project\perfect number project\obj\Debug\perfect number project.pdb
