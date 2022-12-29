@@ -4,42 +4,47 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace perfect_number_project
+namespace ConsoleApp2
 {
-    using System;
-    public class Exercise28
+    internal class Program
     {
-        public static void Main()
+        static bool Prime(long n)
         {
 
-            int n, i, sum;
-            int mn, mx;
-
-            Console.Write("Find the perfect number between two numbers:\n");
-
-            Console.Write("\n\n");
-
-            Console.Write("Enter First Number : ");
-            mn = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter Second Number : ");
-            mx = Convert.ToInt32(Console.ReadLine());
-            Console.Write("The perfect number between the two numbers is : ");
-            for (n = mn; n <= mx; n++)
+            for (int i = 2; i * i <= n; i++)
             {
-                i = 1;
-                sum = 0;
-                while (i < n)
-                {
-                    if (n % i == 0)
-                        sum = sum + i;
-                    i++;
-                }
-                if (sum == n)
-                    Console.Write("{0} ", n);
+
+                if (n % i == 0)
+                    return false;
+
             }
-            Console.Write("\n");
+            return true;
+        }
+        static void Main(string[] args)
+        {
+            long n1, n2;
+
+            Console.WriteLine("enter the first number");
+            n1 = long.Parse(Console.ReadLine());
+
+            Console.WriteLine("enter the second number");
+            n2 = long.Parse(Console.ReadLine());
+
+            if (n1 <= 1)
+                n1 = 2;
+
+            for (long i = n1; i <= n2; i++)
+            {
+
+                if (Prime(i))
+                {
+
+                    Console.WriteLine(i);
+
+                }
+
+            }
+
         }
     }
-
 }
-
